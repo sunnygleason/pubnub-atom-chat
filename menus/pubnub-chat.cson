@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable pubnub-chat': 'pubnub-chat:toggle'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'pubnub-chat'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'pubnub-chat:toggle' }
+      ]
+    ]
+  }
+]

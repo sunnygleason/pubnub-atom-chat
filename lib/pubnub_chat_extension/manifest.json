@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Pubnub Chat",
+  "description": "Send messages using Pubnub for Atom",
+  "version": "0.01",
+
+  "content_scripts": [{
+    "matches": ["https://*.slack.com/messages/*/*"],
+    "js": ["injector.js"]
+  }],
+  
+  "web_accessible_resources": [
+    "jquery.js", 
+    "underscore.js"
+  ]
+}

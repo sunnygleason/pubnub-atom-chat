@@ -1,0 +1,89 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/stylesheets/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+.pubnub-wrapper{
+  width:100%;
+  min-width:200px;
+  height:100%;
+  color: #aaaaaa;
+}
+.pubnub-chat {
+  // background-color: #1e1e1e;
+  overflow: auto;
+  color: #aaaaaa;
+
+  height: 100%;
+  width:100%;
+  padding-left: @component-icon-padding;
+  padding-right: @component-padding;
+  position: relative;
+
+.inp_label{
+  font-size: 24px;
+}
+.inp_form{
+  width: 100%;
+}
+.my_btn {
+  background: green;
+}
+
+  ul {
+    list-style: none;
+    padding-left: 0px;
+    li{
+      cursor: pointer;
+      .active{
+        background-color: #444;
+        color: #ff982d;
+      }
+      padding-left: 15px;
+      height: 25px;
+      vertical-align: center;
+      line-height: 30px;
+    }
+  }
+}
+
+.pubnub-header{
+  height:34px;
+  width: 100%;
+  background: black;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+}
+.pubnub-title {
+  padding-top:5px;
+  font-size:14px;
+  width:100%;
+}
+.back{
+  display: inline;
+  float: left;
+  cursor: pointer;
+  margin-right: 5px;
+  padding-top: 2px;
+}
+
+.pubnub-chat-resizer {
+  padding-top: 34px;
+  position: absolute;
+  top:0;
+  overflow: hidden;
+  cursor: default;
+  -webkit-user-select: none;
+  min-width: 100px;
+  z-index: 2;
+  height: 100%;
+  width: inherit;
+
+  .pubnub-chat-scroller, .chat-menu, .conversation {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+  }
+
+}
