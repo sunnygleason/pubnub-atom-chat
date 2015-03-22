@@ -2,7 +2,7 @@
   "name": "pubnub-atom-chat",
   "version": "0.0.1",
   "description":"PubNub Chat for Atom Editor",
-  "repository":"http://github.com/sunnygleason/pubnub-atom-chat.git",
+  "repository":"https://github.com/sunnygleason/pubnub-atom-chat",
   "main": "pubnub-chat.coffee",
   "dependencies": {
     "jquery": "^2.1.1",
