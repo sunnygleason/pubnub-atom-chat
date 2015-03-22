@@ -1,6 +1,6 @@
 {
   "name": "pubnub-atom-chat",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description":"PubNub Chat for Atom Editor",
   "owner":"sunnygleason",
   "repository":"https://github.com/sunnygleason/pubnub-atom-chat",
